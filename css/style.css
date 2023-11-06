@@ -4,9 +4,45 @@
   font-family: 'Montserrat', sans-serif;
 }
 header .hero{
-  background-image: url();
+  background-image: url(../image/hero.png);
+  width: 100%;
+  min-height: 400px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .hero h1{
+  color: #fff;
+  font-weight: 700;
+  font-size: 4em;
 }
 header nav {
   display: flex;
   justify-content: space-around;
+  background-color: #1F1F1F;
+  align-items: center;
+  padding: 10px;
+}
+header nav h1{
+  color: #fff;
+}
+header nav .navigation-nav, .media-sosial{
+  display: flex;
+  gap: 30px;
+}
+header nav ul li{
+  list-style: none;
+}
+header nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+header nav ul li a:hover{
+  color: #E1684D;
+  transition: all 0.3s;
+}
+header nav .media-sosial li a{
+  font-size: 1.4em;
 }
